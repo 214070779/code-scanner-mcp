@@ -52,7 +52,7 @@ Checks against a built-in database of 45+ CVEs across JavaScript, Python, Java, 
 
 ### Run with MCP Inspector
 ```bash
-git clone https://github.com/yourusername/code-scanner-mcp.git
+git clone https://github.com/214070779/code-scanner-mcp.git
 cd code-scanner-mcp
 pip install mcp pydantic
 npx @modelcontextprotocol/inspector python3 server.py
@@ -96,7 +96,7 @@ Add to your MCP settings:
 
 ```bash
 # Clone and install
-git clone https://github.com/yourusername/code-scanner-mcp.git
+git clone https://github.com/214070779/code-scanner-mcp.git
 cd code-scanner-mcp
 pip install mcp pydantic
 
