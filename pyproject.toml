@@ -1,0 +1,12 @@
+[project]
+name = "code-scanner-mcp"
+version = "0.1.0"
+description = "MCP Server for local code security scanning - detects secrets, vulnerable dependencies, and insecure code patterns"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.6.0",
+    "pydantic>=2.0.0",
+]
+
+[project.scripts]
+code-scanner = "server:main"
